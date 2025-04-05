@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-create-block-teammemberblock {
+    background-color: #21759b;
+    color: #fff;
+    padding: 2px;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    line-height: 1;
+
+    .team-name,.team-designation,.team-social{
+        margin-block-start: 5px;
+        margin-block-end: 0px;
+    }
+
+    .team-name{
+        font-size: 24px;
+    }
+
+    .team-designation{
+        font-size: 18px;
+    }
+    .team-social a{
+        font-size: 14px;
+    }
+}
