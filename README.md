@@ -24,6 +24,6 @@ This section describes how to install the plugin and get it working.
 4. To display the team on your site:
  - Go to any page or post.
  - Add a block.
- - Search for "Team Member" block.
+ - Search for "Team Members" block.
  - Insert it where you want your team to be shown.
 5. The block will automatically fetch and display the added team members in a nice layout.
