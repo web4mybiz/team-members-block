@@ -1,4 +1,4 @@
-#Team Member Block
+# Team Member Block
 
 Contributors:      Rizwan Iliyas
 Tags:              block
@@ -9,7 +9,7 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 Display your team members with names, roles, bios, and social links in a clean, customizable layout.
 
-== Description ==
+## Description
 
 Team Members Block is a simple and effective WordPress plugin that lets you showcase your team in a clean and customizable way. 
 It creates a custom post type called team_member where you can easily add and manage your team members.
@@ -22,7 +22,7 @@ Each team member entry allows you to include:
 - LinkedIn and Twitter profile links
 - Photo (Team Member image)
 
-== How To Use ==
+## How To Use
 
 This section describes how to install the plugin and get it working.
 
