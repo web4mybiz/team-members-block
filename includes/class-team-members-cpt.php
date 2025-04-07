@@ -1,4 +1,8 @@
 <?php
+/**
+ * @package Team_Members_Block
+ */
+
 defined( 'ABSPATH' ) || exit;
 
 class Team_Members_CPT {

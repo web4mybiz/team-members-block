@@ -1,11 +1,19 @@
 <?php
 /**
- * Display Team Members.
+ * Server-side rendering for the Team Member block.
+ *
+ * @param array $attributes Block attributes.
+ * @param string $content Block content.
+ * @return string Rendered HTML.
  */
+
+// Assuming $attributes is passed to the render function
+$limit = isset( $attributes['limit'] ) ? intval( $attributes['limit'] ) : 6; // Default to 6 if not set
+$limit = max( 1, min( 20, $limit ) ); // Ensure it's within the range of 1 to 20
 
 $args = array(
 	'post_type'      => 'team_member',
-	'posts_per_page' => -1,
+	'posts_per_page' => $limit,
 	'orderby'        => 'date',
 	'order'          => 'ASC',
 );

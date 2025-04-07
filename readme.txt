@@ -1,55 +1,36 @@
-=== Teammemberblock ===
-Contributors:      The WordPress Contributors
+=== Team Member Block ===
+Contributors:      Rizwan Iliyas
 Tags:              block
 Tested up to:      6.7
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Display your team members with names, roles, bios, and social links in a clean, customizable layout.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Team Members Block is a simple and effective WordPress plugin that lets you showcase your team in a clean and customizable way. 
+It creates a custom post type called team_member where you can easily add and manage your team members.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Each team member entry allows you to include:
 
-== Installation ==
+- Name (title)
+- Designation
+- Joined date
+- LinkedIn and Twitter profile links
+- Photo (Team Member image)
+
+== How To Use ==
 
 This section describes how to install the plugin and get it working.
 
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/teammemberblock` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+1. Install and activate the plugin.
+2. Go to the WordPress admin sidebar and click on Team Members to add your team profiles.
+3. Fill in the details like designation, social links, and featured image.
+4. To display the team on your site:
+ - Go to any page or post.
+ - Add a block.
+ - Search for "Team Member" block.
+ - Insert it where you want your team to be shown.
+5. The block will automatically fetch and display the added team members in a nice layout.
