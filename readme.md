@@ -1,4 +1,5 @@
-=== Team Member Block ===
+#Team Member Block
+
 Contributors:      Rizwan Iliyas
 Tags:              block
 Tested up to:      6.7
