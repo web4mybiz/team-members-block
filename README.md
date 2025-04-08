@@ -1,4 +1,4 @@
-=== Team Member Block & Search ===
+# Team Member Block & Search
 Contributors: Rizwan Iliyas
 Tags: block, team, custom post type, gutenberg
 Tested up to: 6.7
@@ -6,11 +6,12 @@ Stable tag: 0.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
+
 Display your team members with names, roles, bios, and social links in a clean, customizable layout.
 
 ## Description
 
-Team Members Block is a simple and effective WordPress plugin that lets you showcase your team in a clean and customizable way.
+Team Members Block is a simple and effective WordPress plugin that lets you showcase your team in a clean and customizable way. 
 It creates a custom post type called team_member where you can easily add and manage your team members.
 
 Each team member entry allows you to include:
@@ -21,8 +22,7 @@ Each team member entry allows you to include:
 - LinkedIn and Twitter profile links
 - Photo (Team Member image)
 
-<<<<<<< HEAD:readme.txt
-== Features ==
+## Features
 
 - Gutenberg Block support with live preview
 - REST API integration with live search
@@ -31,7 +31,7 @@ Each team member entry allows you to include:
 - Limit number of team members displayed
 - Follows WordPress Coding Standards and security best practices
 
-== How To Use ==
+## How To Use
 
 This plugin includes two custom Gutenberg blocks:
 
@@ -55,22 +55,3 @@ Follow these steps to get started:
 
         - Add the "Team Members Search" block to any page.
         - Start typing in the search field (minimum 3 characters) to see live results powered by the WordPress REST API.
-
-=======
-
-## How To Use
-
-This section describes how to install the plugin and get it working.
-
-1. Install and activate the plugin.
-2. Go to the WordPress admin sidebar and click on Team Members to add your team profiles.
-3. Fill in the details like designation, social links, and featured image.
-4. To display the team on your site:
-
-- Go to any page or post.
-- Add a block.
-- Search for "Team Members" block.
-- Insert it where you want your team to be shown.
-
-5. The block will automatically fetch and display the added team members in a nice layout.
-   > > > > > > > d222698e27b6cf6918782f3bb67ba93639499cdb:README.md
