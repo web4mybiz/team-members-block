@@ -1,0 +1,52 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/teammembersearch/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.members-search-input input {
+  width: 100%;
+  padding: 10px;
+}
+.members-search-input .results a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 0 0 5px;
+  display: block;
+}
+.members-search-input .results .error {
+  font-size: 14px;
+}
+.members-search-input .results .item {
+  background-color: #f4f3f3;
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+.members-search-input .results .item img {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.members-search-input .results .item span {
+  font-size: 14px;
+  vertical-align: top;
+  padding: 5px;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

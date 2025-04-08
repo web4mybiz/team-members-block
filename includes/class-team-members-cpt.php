@@ -44,6 +44,7 @@ class Team_Members_CPT {
 			'public'        => true,
 			'has_archive'   => true,
 			'show_in_rest'  => true,
+			'rewrite'       => array( 'slug' => 'team' ),
 			'supports'      => array( 'title', 'editor', 'thumbnail' ),
 			'menu_position' => 5,
 			'menu_icon'     => 'dashicons-groups',
