@@ -1,12 +1,4 @@
 # Team Member Block & Search
-Contributors: Rizwan Iliyas
-Tags: block, team, custom post type, gutenberg
-Tested up to: 6.7
-Stable tag: 0.1.0
-License: GPL-2.0-or-later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-
 Display your team members with names, roles, bios, and social links in a clean, customizable layout.
 
 ## Description
